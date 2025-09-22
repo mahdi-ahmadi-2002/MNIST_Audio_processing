@@ -12,7 +12,7 @@ This repository develops and compares three families of neural architectures for
 
 The task is **single-word digit classification** (0–9) from short audio snippets. Each utterance is resampled to a fixed rate, amplitude-normalized, and either **zero-padded** or clipped to a consistent duration to enable batch processing. The primary supervision signal is the digit label; optional speaker-independent splits ensure that models learn phonetic patterns rather than speaker identities. Mel-spectrograms with log compression are used because human perception is approximately logarithmic in both frequency and amplitude, and mel filterbanks concentrate resolution in the most informative bands for speech.  
 
-1[](plots/example_waveform_melspec.png)
+![](plots/example_waveform_melspec.png)
 
 ## Methodology
 
